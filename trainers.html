@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="trainers.html" id="onlink">Trainers</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="assignmentsPerCourse.html">Assignments per Course</a></li>
+            <li><a href="studentsPerCourse.html">Students per Course</a></li>
+            <li><a href="trainersPerCourse.html">Trainers per Course</a></li>
+        </ul>
+    </div>
+    <div class="main_container">
+        <div class="task-input">
+            <input type="text" placeholder="Add a new trainer">
+          </div>
+          <div class="controls">
+            <div class="filters">
+              <span class="active" id="all">All Trainers</span>
+              <span id="completed">Selected Trainers</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+          </div>
+          <ul class="task-box"></ul>
+        </div>
+        <ul class="task-box"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
